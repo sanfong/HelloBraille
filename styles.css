@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "sov_braille";
+    src: url("https://fonts.cdnfonts.com/s/6999/visualbraille.woff") format("woff");
+}
+
+* {
+    font-family: sov_braille!important;
+}

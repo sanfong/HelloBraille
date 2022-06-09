@@ -7,5 +7,11 @@
             "matches": ["<all_urls>"],
             "css": ["styles.css"]
         }
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": ["SOV_braille.ttf", "SOV_braille_only.ttf"],
+          "matches": ["<all_urls>"]
+        }
     ]
 }

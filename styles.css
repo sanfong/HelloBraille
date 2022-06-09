@@ -1,8 +1,18 @@
 @font-face {
-    font-family: "sov_braille";
+    font-family: "visualbraille";
     src: url("https://fonts.cdnfonts.com/s/6999/visualbraille.woff") format("woff");
 }
 
+@font-face {
+    font-family: "SOV_braille";
+    src: url('chrome-extension://__MSG_@@extension_id__/SOV_braille.ttf');
+}
+
+@font-face {
+    font-family: "SOV_braille_only";
+    src: url('chrome-extension://__MSG_@@extension_id__/SOV_braille_only.ttf');
+}
+
 * {
-    font-family: sov_braille!important;
+    font-family: SOV_braille_only!important;
 }
